@@ -1,0 +1,26 @@
+.ant-layout-header {
+    height: 62px !important;
+    background: $secondary-color-400 !important;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px !important;
+}
+
+.ant-layout-content {
+    padding: 24px;
+    flex: auto !important;
+    height: calc(100vh - 184px) !important;
+    background: $secondary-color-100 !important;
+}
+
+.ant-layout-footer {
+    min-height: 122px !important;
+    background: $secondary-color-400 !important;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 24px !important;
+}

@@ -1,0 +1,17 @@
+// footer
+.page-footer {
+    height: 122px;
+    width: 100%;
+
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .footer-counter{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: $primary-color-500;
+    }
+}

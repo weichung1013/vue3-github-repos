@@ -1,0 +1,36 @@
+html {
+    margin: 0px;    
+    width: 100%;
+    background-color: $secondary-color-50 !important;
+    overflow: auto; 
+}
+
+body {
+    font-family: $font-stack;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    
+    // IE and Edge:
+    -ms-overflow-style: none;
+    //Firefox
+    scrollbar-width: none;
+
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+    background-color: $secondary-color-50 !important;
+    overflow: auto;
+}
+
+#app {
+    display: flex !important;
+    grid-template-columns: none !important;
+    background: lightblue;
+    max-width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+    height: inherit;
+    width: inherit;
+}
