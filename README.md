@@ -1,6 +1,6 @@
-# GitHub Repo List
+# GitHub Repository List
 
-This template should help get you started developing with Vue 3 in Vite.
+[Demo Page](https://weichung1013.github.io/vue3-github-repos-app/)
 
 ## Recommended IDE Setup
 

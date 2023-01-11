@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve:dev": "vite --open --host --mode development",
-    "build:prod": "vite build --mode production",
+    "build:prod": "vite build --mode production --base=/vue3-github-repos-app/",
     "preview": "vite preview",
     "test:unit": "vitest --environment jsdom --root src/",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
